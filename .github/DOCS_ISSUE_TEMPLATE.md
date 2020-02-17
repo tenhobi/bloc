@@ -1,46 +1,8 @@
 ---
-title: "[Translations] Include changes in {{ ref }}"
+title: "[Translations] Include changes in {{ sha }}"
 assignees: tenhobi
 labels: documentation, translation
 ---
-Update Translations to include {{ ref }}
+Update Translations to include {{ sha }}, which is #{{ event.number }}
 
 - [ ] cs (@tenhobi)
-- [ ] pt-br (@rodrigobastosv)
-- [ ] ru (@basilex)
-
-{{ action }}
-
----
-
-{{ actor }}
-
----
-
-{{ event }}
-
----
-
-{{ payload }}
-
----
-
-{{ ref }}
-
----
-
-{{ sha }}
-
----
-
-{{ workflow }}
-
----
-
-{{ issue }}
-
----
-
-{{ repo }}
-
----
