@@ -1,4 +1,4 @@
-# aa Frequently Asked Questions
+# Frequently Asked Questions
 
 ## State Not Updating
 

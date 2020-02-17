@@ -1,18 +1,17 @@
 name: docs
 
 on:
-  pull_request:
-    types:
-    - closed
+  push:
+    branches:
+    - master
     paths:
     - 'README.md'
     - 'docs/*'
 
 jobs:
-  # Create an issue, if any changes to source docs were made.
+  # Create an issue, when any changes to source docs were made.
   create-issue:
     runs-on: ubuntu-latest
-    if: github.event.pull_request.merged == true
 
     steps:
       - uses: actions/checkout@v2
@@ -20,6 +19,5 @@ jobs:
       - uses: JasonEtco/create-an-issue@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          xxx: ${{ toJson(github) }}
         with:
           filename: .github/DOCS_ISSUE_TEMPLATE.md
