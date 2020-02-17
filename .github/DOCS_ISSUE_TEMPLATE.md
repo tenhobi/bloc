@@ -1,6 +1,6 @@
 ---
 title: "[Translations] Include changes in {{ ref }}"
-assignees: tenhobi, rodrigobastosv, basilex
+assignees: tenhobi
 labels: documentation, translation
 ---
 Update Translations to include {{ ref }}
