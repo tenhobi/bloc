@@ -1,11 +1,9 @@
 ---
-title: "[Translations] Include changes in #{{ payload.event.pull_request.number }}"
+title: "[Translations] Include changes from #{{ payload.pull_request.number }}"
+assignees: tenhobi
 labels: documentation, translation
 ---
-Update Translations to include {{ sha }}, which is 
-
-#{{ payload.pull_request.number }}
-... {{ payload.pull_request.url }}
+Update Translations to include #{{ payload.pull_request.number }}
 
 - [ ] en (@felangel)
 - [ ] cs (@tenhobi)
