@@ -1,4 +1,4 @@
-# Frequently Asked Questions
+# YOLO Frequently Asked Questions
 
 ## State Not Updating
 
